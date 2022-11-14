@@ -1,0 +1,121 @@
+body{
+    background-image: url(./images/pexels-pixabay-163444.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: rgb(173, 173, 173);
+    margin-bottom: 50px;
+}
+
+
+.navbar a{
+    color: white;
+}
+
+.collapse{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.collapse a{
+    margin-right: 50px;
+}
+
+.card{
+    background-color: rgb(215, 215, 215);
+    opacity: 0.9;
+    
+}
+
+.container-montres{
+    background-color: rgb(215, 215, 215);
+    padding: 10px;
+    height: 200px;
+}
+
+.row-montres{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-montres img{
+    width: 150px;
+    
+}
+
+li{
+    text-align: center;
+}
+
+.affichage{
+    align-items: center;
+}
+
+
+.boutons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.validation{
+    text-align: center;
+}
+
+.montant-total{
+    text-align: center;
+}
+
+strong{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.frais{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+
+.totalplusfrais{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.container-prix{
+    background-color: white;
+    gap: 40px;
+   
+}
+
+.validation button{
+    border: 3px solid white;
+}
+
+.modal-body p{
+    color: rgb(51, 203, 13);
+}
+
+
+
+
+
