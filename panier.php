@@ -42,16 +42,16 @@ include('./head.php');
         "<div class=\"container container-montres\">
             <div class=\"row row-cols-2 row-cols-lg-5 g-2 g-lg-3 affichage\" width: 5rem;>  
                     <div class=\"col\">
-                        <img class=\"card-img\" src=\"images/" . $article['picture'] . "\" alt=\"Card image cap\">
+                        <img class=\"card-img\" src=\"images/" . $article['image'] . "\" alt=\"Card image cap\">
                     </div>
                     <div class=\"col\">
-                        <h5 class=\"card-title font-weight-bold\">" . $article['name'] . "</h5>
+                        <h5 class=\"card-title font-weight-bold\">" . $article['nom'] . "</h5>
                     </div>
                     <div class=\"col\">
                         <p class=\"card-text font-italic\">" . $article['description'] . "</p>
                     </div>
                     <div class=\"col\">
-                        <p class=\"card-text font-weight-light\">" . $article['price'] . " €</p>
+                        <p class=\"card-text font-weight-light\">" . $article['prix'] . " €</p>
                     </div>
                     <div class=\"col\">
                         <form action=\"panier.php\" method=\"post\">

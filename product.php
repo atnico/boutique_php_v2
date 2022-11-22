@@ -22,20 +22,22 @@ $article = getArticleFromId($id);
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6 mx-auto">
-            <div class="card" style="width: 30rem;">
-                <img class="card-img-top" src="images/<?php echo $article['picture']?> "alt="">
+        <div class="col-md-4 mx-auto">
+            <div class="card" style="width: 30rem">
+                <img class="card-img-top" src="images/<?php echo $article['image']?> "alt="">
                     <div class="card-body">
-                        <h1><?php echo $article['name']; ?></h1>
+                        <h1><?php echo $article['nom']; ?></h1>
                         <p><?php echo $article["description"]; ?></p>
-                        <p><?php echo $article["price"]; ?></p>
-                        <p><?php echo $article["detailedDescription"]; ?></p>
+                        <p><?php echo $article["prix"]; ?></p>
+                        <p><?php echo $article["description_detaillee"]; ?></p>
                             <a href="panier.php" class="btn btn-primary">Ajouter au panier</a>
                     </div>
             </div>
         </div>
     </div>
 </div>
+
+
     
 
 

@@ -6,10 +6,19 @@ creationPanier()
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include('./head.php');
+
 if (isset($_POST['commandeValidee'])){
     emptyCart();
 }
+
+if (isset($_POST['email'])){
+    connexion();
+}
+
+if (isset($_POST['deconnexion'])){
+    logOut();
+}
+include('./head.php');
 ?>
 
 
@@ -28,8 +37,8 @@ if (isset($_POST['commandeValidee'])){
     <!-- CARTES MONTRES -->
     <section id="mes-montres">
         <div class="container">
-            <div class="row-montres">
-                <?php showArticles();?>
+            <div class="row mx-auto">
+                <?php showArticles($articles);?>
             </div>
         </div>
     </section>

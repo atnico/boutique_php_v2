@@ -2,6 +2,7 @@ body{
     background-image: url(./images/pexels-pixabay-163444.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -11,16 +12,19 @@ body{
     height: 100px;
     background-color: rgb(173, 173, 173);
     margin-bottom: 50px;
+    align-items: center;
 }
 
 
 .navbar a{
     color: white;
+    align-items: center;
 }
 
 .collapse{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .collapse a{
@@ -114,6 +118,37 @@ strong{
 .modal-body p{
     color: rgb(51, 203, 13);
 }
+
+
+.moncompte h1{
+    text-align: center;
+}
+
+.moncompte-icones i{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.inscriptions{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.insciptions-titre{
+    color: white;
+    text-align: center;
+
+}
+.inscriptions a{
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
 
 
 
